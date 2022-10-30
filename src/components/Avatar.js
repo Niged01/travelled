@@ -1,12 +1,13 @@
 import React from "react";
 import styles from "../styles/Avatar.module.css";
+import avatar from "../assets/avatar.jpg"
 
 const Avatar = ({ src, height = 45, text }) => {
   return (
     <span>
       <img
         className={styles.Avatar}
-        src={src}
+        src={src ? src : avatar}
         height={height}
         width={height}
         alt="avatar"

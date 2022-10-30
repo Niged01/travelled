@@ -7,12 +7,11 @@ import Avatar from "../../components/Avatar";
 import { Button } from "react-bootstrap";
 import { useSetProfileData } from "../../contexts/ProfileDataContext";
 
-const Profile = (props) => {
-  const { profile, mobile, imageSize = 55 } = props;
+const Profile = ({ profile, mobile, imageSize = 55 }) => {
   const { id, following_id, image, owner } = profile;
 
   const currentUser = useCurrentUser();
-  const is_owner = currentUser?.username === owner;
+  const isOwner = currentUser?.username === owner;
 
   const { handleFollow, handleUnfollow } = useSetProfileData();
 
@@ -31,7 +30,7 @@ const Profile = (props) => {
       <div className={`text-right ${!mobile && "ml-auto"}`}>
         {!mobile &&
           currentUser &&
-          !is_owner &&
+          !isOwner &&
           (following_id ? (
             <Button
               className={`${btnStyles.Button} ${btnStyles.BlackOutline}`}
