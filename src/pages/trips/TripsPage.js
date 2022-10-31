@@ -1,3 +1,10 @@
+import React, { useEffect, useState } from "react";
+
+import Form from "react-bootstrap/Form";
+import Col from "react-bootstrap/Col";
+import Row from "react-bootstrap/Row";
+import Container from "react-bootstrap/Container";
+
 import Trip from "./Trip";
 import Asset from "../../components/Asset";
 
@@ -55,7 +62,7 @@ function TripsPage({ message, filter = "" }) {
             onChange={(event) => setQuery(event.target.value)}
             type="text"
             className="mr-sm-2"
-            placeholder="Search posts"
+            placeholder="Search trips"
           />
         </Form>
 
@@ -64,7 +71,7 @@ function TripsPage({ message, filter = "" }) {
             {trips.results.length ? (
               <InfiniteScroll
                 children={trips.results.map((trip) => (
-                  <Post key={trip.id} {...trip} setPosts={setTrips} />
+                  <Trip key={trip.id} {...trip} setTrips={setTrips} />
                 ))}
                 dataLength={trips.results.length}
                 loader={<Asset spinner />}
