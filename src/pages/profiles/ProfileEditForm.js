@@ -9,6 +9,7 @@ import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
 import Alert from "react-bootstrap/Alert";
 
+import axios from 'axios'
 import { axiosReq } from "../../api/axiosDefaults";
 import {
   useCurrentUser,
@@ -82,6 +83,15 @@ const ProfileEditForm = () => {
       setErrors(err.response?.data);
     }
   };
+  const handleDelete = async (e) => {
+    try {
+      await axiosReq.delete(`profiles/${currentUser.profile_id}/delete`)
+      await axios.post('/dj-rest-auth/logout/')
+      history.push('/')
+    } catch (err) {
+        setErrors(err.response?.data)
+    }
+  }
 
   const textFields = (
     <>
@@ -109,6 +119,9 @@ const ProfileEditForm = () => {
       </Button>
       <Button className={`${btnStyles.Button} ${btnStyles.Blue}`} type="submit">
         save
+      </Button>
+      <Button onClick={handleDelete} className={`${btnStyles.Button}`}>
+        Delete Profile                        
       </Button>
     </>
   );
