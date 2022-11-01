@@ -8,10 +8,6 @@ import SignInForm from "./pages/auth/SignInForm";
 import PostCreateForm from "./pages/posts/PostCreateForm";
 import PostPage from "./pages/posts/PostPage";
 import PostsPage from "./pages/posts/PostsPage";
-import TripCreateForm from "./pages/trips/TripCreateForm";
-import TripPage from "./pages/trips/TripPage";
-import TripsPage from "./pages/trips/TripsPage";
-import TripEditForm from "./pages/trips/TripEditForm";
 import { useCurrentUser } from "./contexts/CurrentUserContext";
 import PostEditForm from "./pages/posts/PostEditForm";
 import ProfilePage from "./pages/profiles/ProfilePage";
@@ -60,10 +56,6 @@ function App() {
           <Route exact path="/posts/create" render={() => <PostCreateForm />} />
           <Route exact path="/posts/:id" render={() => <PostPage />} />
           <Route exact path="/posts/:id/edit" render={() => <PostEditForm />} />
-          <Route exact path="/trips/create" render={() => <TripCreateForm />} />
-          <Route exact path="/trips/:id" render={() => <TripPage />} />
-          <Route exact path="/posts/:id" render={() => <TripsPage />} />
-          <Route exact path="/trips/:id/edit" render={() => <TripEditForm />} />
           <Route exact path="/profiles/:id" render={() => <ProfilePage />} />
           <Route
             exact

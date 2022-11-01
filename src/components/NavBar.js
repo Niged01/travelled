@@ -34,20 +34,9 @@ const NavBar = () => {
       activeClassName={styles.Active}
       to="/posts/create"
     >
-      <i className="far fa-plus-square"></i>Add post
+      <i className="fa fa-plane"></i>Add Trip
     </NavLink>
   );
-
-  const addTripIcon = (
-    <NavLink
-      className={styles.NavLink}
-      activeClassName={styles.Active}
-      to="/trips/create"
-    >
-      <i class="fa-solid fa-plane-departure"></i>Add trip
-    </NavLink>
-  );
-
   const loggedInIcons = (
     <>
       <NavLink
@@ -107,7 +96,7 @@ const NavBar = () => {
             <img src={world} alt="world" height="45" />
           </Navbar.Brand>
         </NavLink>
-        {currentUser && addPostIcon && addTripIcon}
+        {currentUser && addPostIcon}
         <Navbar.Toggle
           ref={ref}
           onClick={() => setExpanded(!expanded)}

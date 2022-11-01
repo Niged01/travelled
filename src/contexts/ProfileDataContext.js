@@ -33,7 +33,7 @@ export const ProfileDataProvider = ({ children }) => {
         },
         popularProfiles: {
           ...prevState.popularProfiles,
-          results: prevState.popularProfiles.results.map((profile) =>
+          results: prevState?.popularProfiles?.results?.map((profile) =>
             followHelper(profile, clickedProfile, data.id)
           ),
         },
@@ -56,7 +56,7 @@ export const ProfileDataProvider = ({ children }) => {
         },
         popularProfiles: {
           ...prevState.popularProfiles,
-          results: prevState.popularProfiles.results.map((profile) =>
+          results: prevState?.popularProfiles?.results?.map((profile) =>
             unfollowHelper(profile, clickedProfile)
           ),
         },
