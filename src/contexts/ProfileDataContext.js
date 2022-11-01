@@ -33,13 +33,13 @@ export const ProfileDataProvider = ({ children }) => {
         },
         popularProfiles: {
           ...prevState.popularProfiles,
-          results: prevState?.popularProfiles?.results?.map((profile) =>
+          results: prevState.popularProfiles.results.map((profile) =>
             followHelper(profile, clickedProfile, data.id)
           ),
         },
       }));
     } catch (err) {
-      // console.log(err);
+      console.log(err);
     }
   };
 
@@ -56,13 +56,13 @@ export const ProfileDataProvider = ({ children }) => {
         },
         popularProfiles: {
           ...prevState.popularProfiles,
-          results: prevState?.popularProfiles?.results?.map((profile) =>
+          results: prevState.popularProfiles.results.map((profile) =>
             unfollowHelper(profile, clickedProfile)
           ),
         },
       }));
     } catch (err) {
-      // console.log(err);
+      console.log(err);
     }
   };
 
@@ -77,8 +77,9 @@ export const ProfileDataProvider = ({ children }) => {
           popularProfiles: data,
         }));
       } catch (err) {
-        // console.log(err);
+        console.log(err);
       }
+    
     };
 
     handleMount();
