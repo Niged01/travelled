@@ -8,7 +8,7 @@
 - [Development board]()
 - [User Story board])
 
-![am i responsive]()
+![am i responsive](./documents/design/responsive.png)
 
 # Table Of Contents
 
