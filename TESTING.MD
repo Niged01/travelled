@@ -94,9 +94,9 @@ The same table was used for checks in deployed application all checks working.
 
 #### Trip page
 
-### Comments
+#### Comments
 
-### Liking
+#### Liking
 
 #### Profiles
 
