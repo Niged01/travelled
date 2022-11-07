@@ -167,7 +167,9 @@ The Signup form once completed takes the user straight to the signin page which 
 
 - When click follow goes to a blank screen same for unfollow. Bug fixed by asking if each array existet in profilecontextdata.js in the popular profiles follow and unfollow function
 
-- Bug Add Trip wont post when I click create: This was because image was to large for site a simple fix changed image not a bug code working as expected.
+- Bug Add Trip wont post when I click create: This was because image was to large for site a simple fix changed image not a bug but code working as expected.
+
+- Bug When clicking on post popular profiles was not rendering it was just the place holder text. Perfomed a traceback and found PostPage.js I had left the placeholer there and not imported popularProfiles. I imported and repalce the place holder witht the rendering code and now it is working as expected.
 
 - Bug On profile page the numbers of posts followers and following are not adding up.
 
