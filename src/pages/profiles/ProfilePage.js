@@ -1,15 +1,11 @@
 import React, { useEffect, useState } from "react";
-
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import Container from "react-bootstrap/Container";
-
 import Asset from "../../components/Asset";
-
 import styles from "../../styles/ProfilePage.module.css";
 import appStyles from "../../App.module.css";
 import btnStyles from "../../styles/Button.module.css";
-
 import PopularProfiles from "./PopularProfiles";
 import { useCurrentUser } from "../../contexts/CurrentUserContext";
 import { useParams } from "react-router";
@@ -36,6 +32,7 @@ function ProfilePage() {
   const { pageProfile } = useProfileData();
 
   const [profile] = pageProfile.results;
+  const [followers_count] = pageProfile.results;
   const is_owner = currentUser?.username === profile?.owner;
 
   console.log(pageProfile)
@@ -135,7 +132,7 @@ function ProfilePage() {
       )}
     </>
   );
-
+  console.log(followers_count);
   return (
     <Row>
       <Col className="py-2 p-0 p-lg-2" lg={8}>
@@ -157,5 +154,4 @@ function ProfilePage() {
     </Row>
   );
 }
-
 export default ProfilePage;

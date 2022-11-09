@@ -15,3 +15,9 @@
 .Active i {
   color: #183251;
 }
+
+.Travelled {
+  color: #183251;
+  font-size: 40px;
+  font-weight: 400;
+}
