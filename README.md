@@ -68,7 +68,7 @@
 
 ### Typography
 
-- TBC
+- When thinking about font I wanted a font that feels like you are reading a flight shedule in an airport and after some research I landed on: Ubuntu Condensed
 
 
 ## Features
@@ -77,40 +77,41 @@
 
 - Large screen logged out
 
-![logged out large screen]()
+![logged out large screen](./documents/features/loggedout.png)
 
 - Large screen logged in
 
-![logged in large screen]()
+![logged in large screen](./documents/features/signedinnav.png)
 
 - The smaller screens have a burger icon which reveals the same navigational bar as larger screens, the heading is also a link back to the home page.
 
-![burger icon]()
+![burger icon](./documents/features/burger.png)
 
-- There is an underline on the link that the user is on to show where they are on the site.
+- The Icon of the page the user is on stays highlighted to let the user know what page they are on.
 
 ### Home
 - The home page  has a search function at the top, it also has infinite scroll on the posts for ease of use.
 
-![searchbar]()
+![searchbar](./documents/features/postsearch.png)
 
 - The home page has all the created  trip's by all users, logged in users can like other users trip's, users can comment on trip's. These show on the trip itself.
 
-![Trips post]()
+![Trips post](./documents/features/trips1.png)
+![Trips post2](./documents/features/trips2.png)
 
 - comments can be edited and deleted via the dropdown menu
 
-![comment]()
+![comment](./documents/features/comments.png)
 
 - There is a dropdown menu for owner users to edit or delete the trip, the edit button takes to a form to edit the trip which is prefilled
 
-![edit trips]()
+![edit trips](./documents/features/postedit.png)
 
 - Clicking on a trip from the home page takes you to the single trip which shows all comments underneath, the comments have an infinite scroll function for ease of use.
 
 - Logged in users can create a new memo by clicking on the **Add trip** link in the navigational bar, this will take them to the create trip
 
-![create form]()
+![create form](./documents/features/createtrip.png)
 
 ### Trips
 
@@ -118,35 +119,34 @@
 
 ### For you page - FYP
 - The FYP feeds the user all the posts from the users they follow.
-
+![FYP](./documents/features/fyp.png)
 
 ### Liked
 - The liked page can be reached by the **Liked** link on the navigational bar and shows all the liked posts the user has liked. The page has an infinite scroll for ease of use.
+![Likes](./documents/features/likes.png)
 
-
-![single task]()
 ### Profile page
 - The profile page can be reached via the main navigational bar, or by clicking any user avatar, the user that owns the profile can edit their name, bio and profile picture, they can also change their username and password. the profile page shows that users achievement posts.
 
-![profile page]()
+![profile page](./documents/features/profilepage.png)
 
-![update]()
+![update](./documents/features/password.png)
 
-![update profile]()
+![update profile](./documents/features/editprofile.png)
 
 
 ### Registration
 - A user can Sign up to get full use of the site to be able to follow other users, like trips and post their own trips.
 The Signup form once completed takes the user straight to the signin page which then redirects to the site.
 
-![register]()
+![register](./documents/features/signuppage.png)
 
-![login]()
+![login](./documents/features/signinpage.png)
 
 ### Not Found page
 - If a user comes to a page that doesnt exist it will display a page saying its not found, the navigational bar is still present to take them wherever they want to go.
 
-![not found page]()
+![not found page](./documents/features/pagenotfound.png)
 
 
 ## Future features
