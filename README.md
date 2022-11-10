@@ -5,8 +5,8 @@
 - Deployed API Heroku [link](https://travel-checker-api-nd.herokuapp.com/)
 - Deployed Frontend Heroku [link](https://travelled.herokuapp.com/)
 - API backend [repository](https://github.com/Niged01/travel-checker-api)
-- [Development board]()
-- [User Story board])
+- [Development board](https://github.com/users/Niged01/projects/6/views/1?layout=board)
+- [User Story board](https://github.com/users/Niged01/projects/7/views/1)
 
 ![am i responsive](./documents/design/responsive.png)
 
@@ -53,9 +53,9 @@
 - The goal is to become the one stop shop so to speak for all things travel. This will be implemented in stages as the site users build.
 
 ### User Stories
-- I have put user stories as issues as part of agile development you can find the link [here]()
+- I have put user stories as issues as part of agile development you can find the link [here](https://github.com/Niged01/travelled/issues)
 
-- I have also linked my user stories to a kanban board to make them easier to work on you can find the link [here]()
+- I have also linked my user stories to a kanban board to make them easier to work on you can find the link [here](https://github.com/users/Niged01/projects/7/views/1)
 
 ## Design
 
@@ -174,7 +174,7 @@ The Signup form once completed takes the user straight to the signin page which 
 - Bug On profile page the numbers of posts followers and following are not adding up.
 
 ### Unfixed
-- none known
+- When clicking on Update user name it takes user back to home page. This is noted and issues to be resolved at a later date as the issue is minor and not part of the major functionality to the site.
 
 ## Technologies used
 ### Languages
