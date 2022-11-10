@@ -16,10 +16,11 @@
     1. [Site Purpose](#site-purpose)
     2. [Site Goal](#site-goal)
     3. [User Stories](#user-stories)
-2. [Design](#design)
+2. [The Role of a Front End Developer](#The-Role-of-a-Front-End-Developer)
+3. [Design](#design)
     1. [Colour Scheme](#colour-scheme)
     2. [Typography](#typography)
-3. [Features](#features)
+4. [Features](#features)
     1. [Navigation bar](#navigation-bar)
     2. [Home](#home)
     3. [Trips](#Trips)
@@ -28,21 +29,21 @@
     6. [Profile page](#profile-page)
     7. [Registration](#registration)
     8. [Not Found page](#not-found-page)
-4. [Future features](#future-features)
-5. [Testing](#testing)
-6. [Bugs](#bugs)
+5. [Future features](#future-features)
+6. [Testing](#testing)
+7. [Bugs](#bugs)
     1. [Fixed](#fixed)
     2. [Unfixed](#unfixed)
-7. [Technologies used](#technologies-used)
+8. [Technologies used](#technologies-used)
     1. [Languages](#languages)
     2. [Frameworks, libraries, and programmes](#frameworks-libraries-and-programmes)
-8. [Project Setup](#project-setup)
-9. [Components](#components)
-10. [Deployment](#deployment)
+9. [Project Setup](#project-setup)
+10. [Components](#components)
+11. [Deployment](#deployment)
     1. [First deployment](#first-deployment)
     2. [Final deployment](#final-deployment)
-11. [Credits](#credits)
-12. [Acknowledgements](#acknowledgements)
+12. [Credits](#credits)
+13. [Acknowledgements](#acknowledgements)
 
 ## UX
 ### Site Purpose
@@ -56,6 +57,9 @@
 - I have put user stories as issues as part of agile development you can find the link [here](https://github.com/Niged01/travelled/issues)
 
 - I have also linked my user stories to a kanban board to make them easier to work on you can find the link [here](https://github.com/users/Niged01/projects/7/views/1)
+
+## The Role of a Front End Developer
+- Front end developers are a vital and essential asset to have for any company with tech they implement the UI UX while intergrating the back end API's into the font end. They also are pivital in translating the design teams wants into realities on the site. Along with all that they also make sure the user experience is good ultimatly bringing together an accumulation of various end points accros the tech spread for their company into the one easy to use experience for the user it has been created for.
 
 ## Design
 
