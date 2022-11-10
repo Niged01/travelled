@@ -21,12 +21,12 @@ back to the [README.md](README.md)
 
 ### URL Path tests
 
-![URL path tests development]()
-![URL path tests deployed]()
+![URL path tests development](./documents/testing/devcheck.png)
+![URL path tests deployed](./documents/testing/devcheck.png)
 
 ### Search testing
-- The same table was used for development and deployment everything working as expected.
-![search table for development]()
+- The Search for posts working in both development and deployed.
+
 
 ### CRUD Testing
 - Table was made to check a user could **C**reate, **R**ead, **U**pdate, or **D**elete items.
@@ -36,7 +36,7 @@ back to the [README.md](README.md)
     - LO meaning the user was not logged in and so could only read.
     - LI/O meaning the user was logged in **and** the owner so had full CRUD functionality.
 
-![CRUD testing development]()
+![CRUD testing development](./documents/testing/crud.png)
 The same table was used for checks in deployed application all checks working.
 ### Validation
 
@@ -93,10 +93,18 @@ The same table was used for checks in deployed application all checks working.
 ![profile avatars](./documents/features/profilepage.png)
 
 #### Trip page
+- As a user I can view other users trips and comments of those trips when I click on them.
+![Trips](./documents/features/trips1.png)
 
 #### Comments
+- As a user I can create and edit or delete my comments on other user posts.
+
+![Comments](./documents/features/comments.png)
 
 #### Liking
+- As a user I can like other users posts.
+
+![Liking](./documents/features/likes.png)
 
 #### Profiles
 
