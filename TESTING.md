@@ -44,9 +44,9 @@ The same table was used for checks in deployed application all checks working.
 
 ### Lighthouse
 
-- Lighthouse scores
+- Lighthouse scores, There are advisements to reduce Javascript code or unused code I have noted this for further updates later.
 
-![Lighthouse]()
+![Lighthouse](./documents/testing/lighthouse.png)
 ### User Stories
 #### Navigation and authentication
 
@@ -54,11 +54,11 @@ The same table was used for checks in deployed application all checks working.
     - A navigation menu for small and larger screens were added.
     - Smaller screens
 
-![small navbar](g)
+![small navbar](./documents/features/signedinnav.png)
 
     - larger screens
 
-![navbar]()
+![navbar](./documents/features/burger.png)
 
 - As a user I can navigate through pages quickly so that I can view content without having to refresh the page
     - The navigational bar is visible on small screens via the burger menu, and at the side on larger screens, infinite scroll has been put on pages for posts and comments so the user doesn't have to refresh the page.
@@ -66,18 +66,18 @@ The same table was used for checks in deployed application all checks working.
 - As a user I can register for an account so that I can access all content
     - A signup form is available to users to register for the full functionality of the site.
 
-![signup form]()
+![signup form](./documents/features/signuppage.png)
 
 - As a user I can log in to the site so that I can access all content for a logged in user
 
     - A login form is required to access full functionality
 
-![login form]()
+![login form](./documents/features/signinpage.png)
 
 - As a user I can see if I am logged in or logged out so that I can log in or out as needed
-    - As a logged in user the profile picture shows on the side navigation bar, and in the family bar it doesn't have a watching/notwatching button. A logged in user can access the create functions on the side navigation bar unlike a logged out user.
+    - As a logged in user the profile picture shows on the side navigation bar. A logged in user can access the create functions on the side navigation bar unlike a logged out user.
 
-![signed in navbar]()
+![signed in navbar](./documents/features/signedinnav.png)
 
 - As a user I can maintain my logged in status until I choose to log out so that my user experience is not compromised
     - Refresh tokens have been set within the site so a user can remain logged in.
@@ -85,12 +85,12 @@ The same table was used for checks in deployed application all checks working.
 - As a logged out user I can see sign in or register options so that I can sign in or register
     - These options are on the logged out user navbar
 
-![logged out navbar]()
+![logged out navbar](./documents/features/loggedout.png)
 
 - As a user I can view other users avatars so that I can easily identify users of the site
-    - The family is displayed on the right of the site with their avatar pictures once they have added them to their profiles. They are also on each post which links to that users profile page
+    - The profiles are displayed on the right of the site with their avatar pictures once they have added them to their profiles. They are also on each post which links to that users profile page
 
-![profile avatars]()
+![profile avatars](./documents/features/profilepage.png)
 
 #### Trip page
 
@@ -104,27 +104,27 @@ The same table was used for checks in deployed application all checks working.
 - As a user I can update my profile so that the information about me is up to date
     - A profile is created with a username when registering, a user can update their information via the dropdown menu to edit their profile.
 
-![profile edit form]()
+![profile edit form](./documents/features/editprofile.png)
 
 - As a user I can view the profile pages of users so that I can get to know more information about them
-    - by clicking on an avatar in the family column or on a post it will take the user to the specific users profile page.
+    - by clicking on an avatar in the profiles column or on a post it will take the user to the specific users profile page.
 
-![profile page]()
+![profile page](./documents/features/profilepage.png)
 
 - As a user I can update my username and password so that I can keep my profile secure
     - A dropdown menu is available to owner users to update their username and password
 
-![edit profile]()
+![edit profile](./documents/features/password.png)
 
 #### User experience
 
 - As a user I can keep scrolling through posts that are loaded automatically so that I don't have to click next page to see other posts
     - There is an infinite scroll on all pages and on the comments section too, so a user doesnt need to click any buttons to see everything.
 - As a user I can easily use the site so that I want to keep returning
-    - The site has a simple design without content that isnt necessary to make it easier on the eye, with minimal glaring colours, the forms have validation on them so a user knows if there is something wrong. There is also an underline on the navigational menu so the user knows which page they are on.
+    - The site has a simple design without content that isnt necessary to make it easier on the eye, with minimal glaring colours, the forms have validation on them so a user knows if there is something wrong. There is also an icon highlight on the navigational menu so the user knows which page they are on.
 
-![form validation]()
+![form validation](./documents/testing/validation.png)
 
-![underline navbar]()
+![Icon](./documents/features/signedinnav.png)
 
 back to the [README.md](README.md)

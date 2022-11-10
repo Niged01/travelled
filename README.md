@@ -186,8 +186,6 @@ The Signup form once completed takes the user straight to the signin page which 
 - SQL - postgres
 ### Frameworks, libraries, and programmes
 
-- Balsamiq
-    - For the wireframes
 - Git
     - For version control, committing and pushing to Github
 - Github
